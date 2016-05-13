@@ -40,6 +40,17 @@ public class NewClass {
          *  */
         // </editor-fold>
     }
+      public static Logger getLogger(Class clazz) {
+        // <editor-fold defaultstate="collapsed" desc="Compiled Code">
+        /* 0: aload_0
+         * 1: invokevirtual java/lang/Class.getName:()Ljava/lang/String;
+         * 4: invokestatic  org/apache/log4j/LogManager.getLogger:(Ljava/lang/String;)Lorg/apache/log4j/Logger;
+         * 7: areturn
+         *  */
+        // </editor-fold>
+        return log;
+    }
+      
    public static void main(String[] args)throws IOException,SQLException{
    }
 }
